@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(83, 120,  120);
+    font-family:"Lucida Console", Courier, monospace;
+    color: black;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+header, .title{
+    text-align: center;
+    background-color: rgb(120, 83, 83);
+    font-size: 25px;
+    text-decoration:underline;
+}
+th{
+    font-weight: bold;
+
+}
+table,td,th {
+    font-size: 20px;
+    background-color: rgb(83, 120, 90);
+    border-style:solid;
+    border-color: black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+}
+pre{
+    background-color:rgb(110, 83, 120);
+    border:solid black;
+}

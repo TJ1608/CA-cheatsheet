@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Cheatsheet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+        <script src="" async defer></script>
+
+<Header>
+    <h1>The Everything Cheatsheet</h1>
+</Header>
+
+<h2 class="title">Html Cheatsheet</h2>
+<p>Html tags are the core of developing a html document. here are some  commonly used html tags: </p>
+
+<table>
+    
+    <tbody>
+        <thead>
+            <tr>
+                <th>Html Element</th>
+                <th>description</th>
+                <th colspan="2">example</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>&lt;h1&gt;-&lt;h6&gt;</td>
+            <td>These are used for headings starting at h1 for important heading down to h6. for best practice it is best to work down through the heading numbers. <br>Browsers are able to interpret these different tags and give them diffeent font sizes also giving your page structure for readability.</td>
+           <td colspan="2"><h1>Hello World</h1>
+                <h2>Hello World</h2>
+                <h3>Hello World</h3>
+                <h4>Hello World</h4>
+                <h5>Hello World</h5>
+                <H6>Hello World</H6></td>
+</tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td colspan="3">The paragraph tag is used to contain text that will display on your webpage,any text written between these tages will appear when viewed on a browser.</td>
+        </tr>
+          <tr>
+              <td>&lt;a&gt;</td>
+              <td>
+                  Used to create links between different section of the same time or to other sites available through the internet. A href= attribute is required, target attribute allows you to set what happens when the link is clicked.</td>
+                  <td colspan="2"><a href="http://www.google.com" target="_blank"> Link to google</a></td>
+          </tr>
+          <tr>
+              <td>&lt;em&gt; or &lt;i&gt;</td>
+              <td>these two tags stand for emphasis or italic and can be used to achive the same results of chaning text to italic.
+              </td>
+              <td colspan="2"><em>this is in italics</em></td>
+          </tr>
+          <tr>
+              <td>&lt;b&gt; or &lt;strong&gt;</td>
+              <td>These tags are used to style your text in bold</td>
+              <td colspan="2"><b>this is bold</b></td>
+          </tr>
+          <tr>
+              <td>&lt;br&gt;</td>
+              <td colspan="3">the &lt;br&gt; is used to add a break within the text <br>useful for stylising your page.</td>
+          </tr>
+          <tr>
+              <td>&lt;ul&gt; or &lt;ol&gt;</td>
+              <td>an unordered and ordered list,where the list of items is unimportant and changing the order would not effect the meaning of the list,a unordered list would be used. Whereas  an ordered list should be used when items are listed in importantance.</td>
+              <td rowspan="2">
+                <ol>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ol>
+            </td>
+            <td rowspan="2">
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+              <td>&lt;li&gt;</td>
+              <td>A sub element used to define the items within a list.</td>
+              
+          </tr>
+          <tr>
+              <td>&lt;img&gt;</td>
+              <td colspan="3">Self closing element used to inlcude an image within the page.Uses src= attribute to link file</td>
+          </tr>
+          <tr>
+              <td >&lt;video&gt;</td>
+              <td colspan="3">used to display an video using src attribute,controls attribute to display video controls in the media player</td>
+          </tr>
+          <tr>
+              <td >&lt;div&gt;</td>
+              <td colspan="3">short for division and is used for dividing your html code into containers.These tags will contain other html content.</td>
+          </tr>
+
+
+</tbody>
+</table>
+<img src="Resources\IMG_20160108_115942.jpg" alt="Dog asleep on couch" width="25%" height="25%">
+<figcaption>My dog marley</figcaption>
+
+
+
+<h2 class="title">Semantic Markup</h2>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">Semantic Markup</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+    <tr>
+        <td>&lt;!DOCTYPE html&gt;</td>
+        <td>declaration of doctype this is an instruction to the browser about what type of document to expect.</td>
+    </tr>
+    <tr>
+        <td>&lt;html&gt;</td>
+        <td>is the root element all content is contained between these elements.</td>
+    </tr>
+    <tr>
+        <td>&lt;head&gt;</td>
+        <td>This element contain meta data for the html document and any links to stylesheets.</td>
+    </tr>
+    <tr>
+        <td>&lt;!-- ,--&gt; </td>
+        <td>comments can be added to code between&lt;!-- ,--&gt; these are used for annotation of code  or for creating whitespace for ease of reading.</td>
+    </tr>
+    <tr>
+        <td>&lt;title&gt;</td>
+        <td>contains text which is displayed on a browsers tab. This element can only be contained within the &lt;head&gt; element.</td>
+
+    </tr>
+    </tbody>
+</table>
+</div>
+<h2 class="title">Formatting A Table</h2>
+<pre class="table">
+
+    &lt;table&gt;                           Container element for for 2d table   
+
+        &lt;thead&gt;                       Defines tables heading for columns
+
+            &lt;tr&gt;                      Defines a table row
+
+                &lt;th&gt;&lt;/th&gt;             Defines heading data for one cell,add more multiple cells
+
+            &lt;/tr&gt;                     closing tag for table row
+
+        &lt;/thead&gt;                      Closing tag for table headers
+
+        &lt;tbody&gt;                       table Element container for rest of data
+
+            &lt;tr&gt;                      Table Row
+
+                &lt;td&gt;&lt;/td&gt;             Table Row Data for one cell,add more for mutlple cells
+
+            &lt;/tr&gt;
+
+        &lt;/tbody&gt;
+
+        &lt;tfoot&gt;                       Table footer
+
+            &lt;tr&gt;
+
+                &lt;td&gt;&lt;/td&gt;             Data for table footer
+
+            &lt;/tr&gt;
+
+        &lt;/tfoot&gt;
+
+    &lt;/table&gt; 
+                                      rowspan= Attribute defines how many cells data should span
+                                      colspan= Attribute Defines how many columns data should span
+
+</pre>
